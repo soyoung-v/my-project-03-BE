@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: memo #???? ??
+  datasource: # ?????? ?? ??
+    url: jdbc:mysql://localhost:3306/memo
+    username: root
+    password: qaws7579
+
+mybatis: # Mybatis ??
+  mapper-locations: mappers/**/*.xml #xml?? ??
