@@ -1,12 +1,12 @@
 package com.green.memo.application.dto;
 
 import lombok.Getter;
-import lombok.ToString;
+import lombok.Setter;
 
 @Getter
-@ToString
-public class MemoPostReq {
+@Setter
+public class MemoGetSearchRes {
     private int id;
     private String title;
-    private String contents;
+    private String createdAt;
 }
